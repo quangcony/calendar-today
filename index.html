@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar UI</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- style -->
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+
+    <!-- heading -->
+    <div class="heading">
+        <div class="heading-wrapper">
+            <a class='logo' href="#">
+                CALEND<span><i class='bx bx-calendar-heart bx-tada' ></i></span>R
+            </a>
+            <div class="toggle" id="toggle">
+                <span>
+                    <i class='bx bxs-sun' ></i>
+                    <i class='bx bxs-moon' ></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- end heading -->
+
+    <!-- main content -->
+    <div class="main-content">
+        <!-- calendar today -->
+        <div class="calendar-today" id="calendar-today">
+            <div class="banner">
+                <span><i class='bx bxs-time-five bx-flip-horizontal bx-tada' ></i></span>
+                <h3 id="time">
+                    00:00
+                </h3>
+            </div>
+            <div class="calendar-header">
+                <h2 id="month">January</h1>
+            </div>
+            <div class="calendar-body" >
+                <h1 id="day-number">1</h1>
+                <h3 id="holiday-name">Tết dương lịch</p>
+            </div>
+            <div class="calendar-footer">
+                <h2 id="day">Saturday</h2>
+                <h3 id="year">2022</p>
+            </div>
+        </div>
+        <!-- end calendar today -->
+
+    </div>
+    <!-- end main content -->
+
+    <!-- content view -->
+    <div class="view">
+        <ul class="view-select" id="view-select">
+        </ul>
+        <span class="btn-show" id="btn-show">
+            <i class='bx bx-chevron-down'></i>
+            <i class='bx bx-chevron-up' ></i>
+        </span>
+
+    </div>
+    <!-- end content view -->
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
