@@ -16,7 +16,8 @@
     --font-size-xl: 2.5rem;
     --font-size-large: 13rem;
 
-    --font-family: cursive;
+    --font-family-1: 'Cairo', sans-serif;
+    --font-family-2: 'Potta One', cursive;
 }
 
 .light {
@@ -38,7 +39,8 @@
 }
 
 html, body {
-    font-family: var(--font-family);
+    font-family: var(--font-family-1);
+    font-family: var(--font-family-2);
     font-size: 16px;
     height: 100vh;
     overflow: hidden;
@@ -72,7 +74,6 @@ a {
     font-size: 2rem;
     font-weight: 900;
     color: var(--color-txt);
-    font-family: helvetica;
 }
 
 .heading-wrapper .toggle {
@@ -179,8 +180,8 @@ a {
 
 .view {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 10px;
 }
 .view .btn-show {
     font-size: 2rem;
@@ -232,16 +233,17 @@ a {
         --heading-height: 50px;
     
         --banner-height: 50px;
-        --border-radius: 10px;
     
         --font-size: 1rem;
         --font-size-xl: 1.5rem;
         --font-size-large: 7rem;
     
-        --font-family: cursive;
     }
     .calendar-today {
         min-width: 300px;
+    }
+    .heading-wrapper .logo {
+        font-family: 'Cairo', cursive;
     }
 
 }
