@@ -71,7 +71,8 @@ a {
 }
 
 .heading-wrapper .logo {
-    font-size: 2rem;
+    display: flex;
+    font-size: var(--font-size-xl);
     font-weight: 900;
     color: var(--color-txt);
 }
@@ -85,7 +86,7 @@ a {
 }
 
 .toggle span {
-    font-size: 2rem;
+    font-size: var(--font-size-xl);
     color: var(--bg-content);
     background-color: var(--color-txt);
     border-radius: 50%;
@@ -241,9 +242,6 @@ a {
     }
     .calendar-today {
         min-width: 300px;
-    }
-    .heading-wrapper .logo {
-        font-family: 'Cairo', cursive;
     }
 
 }
